@@ -1,3 +1,8 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+
 .profile-pic {
   max-width: 40%;
   border-radius: 20%;
@@ -5,7 +10,8 @@
 }
 
 .gif-pic {
-  height: 250px;
+  /* height: 150px;
+  width: 325px; */
 }
 
 a > .btn-pink {
@@ -34,6 +40,101 @@ a > .btn-gray:hover {
 }
 
 svg > text {
-  font-size: xx-large;
+  font-size: large;
   font-weight: lighter;
 }
+
+svg {
+  height: 100px;
+}
+
+.home-page {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  min-height: 100vh;
+  background-color: rgb(20, 20, 20);
+  color: white;
+
+}
+
+.container {
+}
+
+.typed-out{
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 1.6rem;
+  width: 0;
+  animation: 
+    typing 2s steps(20, end) forwards;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.border-bottom {
+  width: 80%;
+  margin: 0 auto;
+  border: 2px 0 solid gold;
+  height: 40px;
+  border-radius: 10px 40px;
+}
+
+.splash-message {
+  padding-top: 7rem;
+  width: 65%;
+  margin: 0 auto;
+  min-height: 35vh;
+  
+}
+
+.page-links {
+  width: 70%;
+  font-weight: 300;
+}
+
+.page-links > ul {
+  overflow: hidden;;
+}
+
+.page-links > ul > li {
+  display: inline;
+  font-size: 4em;
+  color: white;
+}
+
+.page-links > ul > li > a:link, a:visited, a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.page-links > ul > li > a:hover {
+  color: #E0BFB8;
+}
+
+.card {
+  margin: 2rem;
+}
+
+/* .project-highlight {
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+} */
+
+/* .project-highlight > .container {
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+} */
+
+/* .project-highlight > col, .project-highlight > row {
+  width: 100%;
+} */
+
+/* .projects-page {
+  margin: 0 auto;
+
+} */
