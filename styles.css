@@ -150,3 +150,8 @@ svg {
 .sub-desc {
   font-size: xx-large;
 }
+
+.auth-page, .speed-page, .connect4-page {
+  width: 70%;
+  margin: 0 auto;
+}
