@@ -53,8 +53,13 @@ svg {
   font-weight: 100;
   min-height: 100vh;
   background-color: rgb(20, 20, 20);
-  color: white;
+  color: #E0BFB8;
+  font-family: 'Raleway', sans-serif;
 
+}
+
+.home-page h2 {
+  font-size: 4em;
 }
 
 .container {
@@ -101,11 +106,11 @@ svg {
 
 .page-links > ul > li {
   display: inline;
-  font-size: 3em;
+  font-size: 2em;
   color: white;
 }
 
-.page-links > ul > li > a:link, a:visited, a:active {
+.page-links a:link, .page-links :visited, .page-links a:active {
   text-decoration: none;
   color: white;
 }
@@ -136,5 +141,12 @@ svg {
 
 .projects-page {
   margin: 0 auto;
+}
 
+.project-title {
+  color: #000;
+}
+
+.sub-desc {
+  font-size: xx-large;
 }
