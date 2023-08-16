@@ -118,23 +118,23 @@ svg {
   margin: 2rem;
 }
 
-/* .project-highlight {
+.project-highlight {
   width: 100%;
   margin: 0 auto;
   align-items: center;
-} */
+}
 
-/* .project-highlight > .container {
+.project-highlight > .container {
   width: 100%;
   margin: 0 auto;
   align-items: center;
-} */
+}
 
-/* .project-highlight > col, .project-highlight > row {
+.project-highlight > col, .project-highlight > row {
   width: 100%;
-} */
+}
 
-/* .projects-page {
+.projects-page {
   margin: 0 auto;
 
-} */
+}
