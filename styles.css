@@ -155,3 +155,8 @@ svg {
   width: 70%;
   margin: 0 auto;
 }
+
+.overview-img {
+  max-width: 70%;
+  border: 1px solid grey;
+}
